@@ -15,11 +15,18 @@ function zom() {
     }
     cil++
 }
-function go() {
+function on() {
     let g = document.getElementsByTagName("img");
     for (let y = 0; y < g.length; y++) {
         g[y].style.border = " 10px solid gold"
 
     }
 
+}
+function of() {
+    let off = document.getElementsByTagName("img");
+    for (let z = 0; z < off.length; z++) {
+        off[z].style.border = "none";
+
+    }
 }
