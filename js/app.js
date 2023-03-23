@@ -3,7 +3,7 @@ function zom() {
     let w = document.getElementsByTagName("img");
     if (cil % 2 == 0) {
         for (let x = 0; x < w.length; x++) {
-            w[x].style.width = "300px"
+            w[x].style.width = "300px";
 
         }
     }
