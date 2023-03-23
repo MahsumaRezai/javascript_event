@@ -16,7 +16,7 @@
 .img {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 .input{
   &__inp {
@@ -28,10 +28,13 @@
     border-radius: 10px;
     font-family: sans-serif;
     font-size: 15px;
-   
-
-    
+    box-shadow: 10px 10px 10px 10px gainsboro;
+  
   }
+}
+img {
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px gainsboro
 }
 
   

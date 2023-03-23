@@ -18,7 +18,7 @@ function zom() {
 function on() {
     let g = document.getElementsByTagName("img");
     for (let y = 0; y < g.length; y++) {
-        g[y].style.border = " 10px solid gold"
+        g[y].style.border = " 5px solid gold"
 
     }
 
